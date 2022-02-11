@@ -24,7 +24,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name = "Shambhawi"
-    env=local.env
+    env="Prod"
   }
   
 }
